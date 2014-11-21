@@ -8,3 +8,4 @@ function Tick(tick)
 		CreateText([100, 100, 0xFFFFFFFF , "Hello World", F12)
 		
 end
+script:RegisterEvent(EVENT_TICK,Tick)
